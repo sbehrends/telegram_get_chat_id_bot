@@ -1,0 +1,17 @@
+{
+  "name": "get_chat_id_bot",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "node api/[bot].js",
+    "dev": "nodemon api/[bot].js",
+    "now-build": "node build.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "node-telegram-bot-api": "^0.40.0"
+  }
+}
